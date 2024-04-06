@@ -1,7 +1,9 @@
 # %%
+import streamlit as st
 import pandas as pd
 
 from ipyvizzu import Chart, Data, Config, DisplayTarget
+st.title('Steps by Paulius in 2024')
 
 # %%
 google_sheet_id = "1A2DKMRR6YMiDaDPutXJmykdhSnEpNBe6F6XJKUniqHw"
